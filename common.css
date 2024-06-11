@@ -1,0 +1,98 @@
+/* 公共样式 */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+p {
+    color: #666;
+}
+
+/* 超链接样式 */
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #0056b3;
+}
+
+/* 表单样式 */
+form input[type="text"],
+form input[type="email"],
+form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
+
+/* 列表样式 */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    padding: 10px;
+    background-color: #e9e9e9;
+    margin: 5px 0;
+}
+
+/* 图片样式 */
+img {
+    width: 100%;
+}
+/* common.css */
+body {
+    /* 设置背景图片 */
+    background-image: url('images/background.jpg');
+    /* 如果图片较小，可以设置重复 */
+    background-repeat: no-repeat;
+    /* 设置图片位置 */
+    background-position: center center;
+    /* 设置图片大小 */
+    background-size: cover;
+    /* 如果需要，可以固定背景图片 */
+    background-attachment: fixed;
+}
+
+.container {
+    /* 添加容器样式，如果需要 */
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* 水平线样式 */
+hr {
+    border: none;
+    height: 1px;
+    background: #333;
+    margin: 20px 0;
+}
